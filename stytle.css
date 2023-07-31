@@ -1,0 +1,30 @@
+.mytitle {
+    color: white;
+    background-color: green;
+
+    /* width - 너비(가로)
+       height - 세로(높이)
+       px(픽셀 단위로 조절) */
+    width: 300px;
+    height: 200px;
+    
+    text-align: center;
+    
+    background-image: url(https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg);
+    background-size: cover;
+    background-position: center;
+
+/* image 테두리(border) 범위(radius) 
+이미지 테두리를 조정 하는 값*/
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.wap{
+    width: 300px;
+    margin: auto;
+}
+/* 구글 폰트  */
+* {
+    font-family: 'Jua', sans-serif;
+}
